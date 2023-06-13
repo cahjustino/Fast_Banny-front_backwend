@@ -3,14 +3,18 @@
 
 //$branch_id = $_GET['id'];
 ?>
+<!doctype htmal>
+<html lang="en">
+  <header>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <title>registrar</title>
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="../layout/plugins/datatables/dataTables.bootstrap.css">
-    <link rel="stylesheet" href="../layout/dist/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="../layout/plugins/select2/select2.min.css">
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-         folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="../layout/dist/css/skins/_all-skins.min.css">
+    
+    <header>
   <body class="nav-md">
     <?php 
 
@@ -252,7 +256,9 @@ ul {
         <!-- /footer content -->
       </div>
     </div>
-
+  <footer>
+    &copy; 2023 Sistema Hospitalar. Todos os direitos reservados.
+  </footer>
   
   </body>
 </html>

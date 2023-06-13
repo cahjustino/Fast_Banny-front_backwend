@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Navbar</title>
         
         <!-- Bootstrap CSS-->
 
@@ -33,6 +33,7 @@
                         echo'
                     
                         <li class="nav-item"><a href="#" class="nav-item">'.$user.'</a></li>
+
                         <li class="nav-item"><a href="logout.php" class="nav-item">logout</a></li>
                         
                         '
